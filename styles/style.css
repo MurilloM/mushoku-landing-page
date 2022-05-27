@@ -1,0 +1,146 @@
+body {
+    /* background-color: #B2945B; */
+    background-color: #424B54;
+    color: #FFFFFF;
+    font-family: comfortaaregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    width: 38%;
+}
+
+#title h1 img {
+    width: 40%;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: comfortaabold;
+}
+
+a:hover {
+    color: #ffc918;
+    transition: 0.3s all;
+}
+
+li:last-child a {
+    border: 2px solid #ffc918;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+li:last-child a:hover {
+    background: #ffc918;
+    color: #424B54;
+    transition: 0.3s all;
+}
+
+/* Conteúdo Principal */
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+aside {
+    background-color: #343a41;
+    border: 1px solid #343a41;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 56px;
+    margin-bottom: auto;
+}
+
+span {
+    color: #ffc918;
+}
+
+aside p {
+    max-width: 500px;
+    line-height: 20px;
+    font-family: comfortaalight;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: #f8c10b;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    background-color: #fc950f;
+    cursor: pointer;
+}
+
+form [type="submit"]:active {
+    background-color: #fa5c00;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a41;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+    margin: 100px 0 0;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p {
+    font-size: 12px;
+    font-family: comfortaalight;
+    text-align: center;
+    padding-left: 7%;
+}
+
+footer div#social {
+    padding-right: 7%;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 6px;
+}
