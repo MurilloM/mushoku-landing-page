@@ -1,4 +1,4 @@
-# mushoku-landing-page
+# Landing Page de Mushoku Tensei
 Landing page simples feita pra praticar HTML &amp; CSS <br/>
 O projeto pode ser visualizado por <a href="https://murillom.github.io/mushoku-landing-page/">aqui</a>
 
